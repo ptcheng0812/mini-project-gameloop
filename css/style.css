@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+
+#header {
+  text-align: center;
+  background: linear-gradient(264deg, #000000, #c30000, #000000);
+  color: aliceblue;
+  margin: 0px;
+  background-size: 600% 100%;
+  animation-name: gradientOne;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes gradientOne {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+
+#instructions {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#game-screen {
+  margin: 0 auto;
+  position: relative;
+  width: 1200px;
+}
+
+#ball-area {
+  position: relative;
+  margin: auto;
+  height: 700px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  background-image: url('http://www.cartedumonde.net/carte-du-monde/monde/grand/carte-planisphere-vierge.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shootBall {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.ball {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  border: 1px ridge black;
+}
+
+#game-over {
+  display: none;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  background: #000000;
+  color: white;
+  padding: 20px 50px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#you-win {
+  display: none;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  background: #000000;
+  color: white;
+  padding: 20px 50px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#pre-start {
+  display: block;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  background: #9b9b9b;
+  color: white;
+  padding: 20px 50px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#list {
+  text-align: start;
+}
