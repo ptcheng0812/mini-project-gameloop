@@ -1,4 +1,4 @@
-import Game from '/scripts/Game.js'
+import Game from '../scripts/Game.js'
 
 const $shootBall = $('#shootBall')
 
