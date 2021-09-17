@@ -103,11 +103,6 @@ function Game({ id, ballAreaId, loopInterval }) {
     }
   }
 
-  // const calculateArea =() =>{
-  //   $("#area").text(game.balls.length )
-  // }
-
-  // calculateArea()
 }
 
 export default Game

@@ -4,7 +4,7 @@ const $shootBall = $('#shootBall')
 
 const CHARACTER_WIDTH = $shootBall.width()
 const CHARACTER_HEIGHT = $shootBall.height()
-const VELOCITY = 2.5
+const VELOCITY = 4.5
 const FPS = 60
 const LOOP_INTERVAL = Math.round(1000 / FPS)
 
